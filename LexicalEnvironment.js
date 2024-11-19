@@ -6,7 +6,7 @@ function hello() {
         console.log(a)
         console.log(val)
 
-    }
+
         {
             let b = 20;
             console.log(b)
@@ -14,6 +14,7 @@ function hello() {
             console.log(val)
     
         }
+    }
     
 }
 

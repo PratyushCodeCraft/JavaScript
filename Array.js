@@ -14,6 +14,7 @@
 
 
 //Array using for loop -->
+
 let newArr = [3, 6, 8, 9, "hello", "good"];
 for (let i = 0; i < newArr.length; i++) {
     console.log(i, ':', newArr[i])
@@ -43,6 +44,8 @@ while (i < arr3.length) {
     i++;
 }
 
+
+// Array using while and for loop -->
 
 let arr = [80, 90, 40, 50];
 let b = 1; //using while loop

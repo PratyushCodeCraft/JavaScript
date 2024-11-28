@@ -10,4 +10,15 @@ for(let i = 1; i <= 10; i++){
 }
 
 
+// while loop <-- It is also called the Entry control loop. -->
+
+let x = 1;
+
+while(x <= 4){
+  console.log(x);
+  x++;
+}
+
+
+
 

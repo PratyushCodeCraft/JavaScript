@@ -21,13 +21,9 @@ while(x <= 4){
 
 
 // do while loop 
-let x = 1;
+let y = 1;
 
   do {
-    console.log(x);
-    x++;
-  } while(x <= 4)
-
-
-
-
+    console.log(y);
+    y++;
+  } while(y <= 4)

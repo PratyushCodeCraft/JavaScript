@@ -1,10 +1,16 @@
-// let arr = [1, 2, 3, 4]
 
+//Arrays are a fundamental data structure in JavaScript, used to store multiple values in a single variable
+
+
+
+//Array Method
+
+
+// let arr = [1, 2, 3, 4]
 // console.log(arr[1]);
 // console.log(arr.length)
 
 // console.log(arr)
-
 // arr.push(10);
 // console.log(arr)
 // arr.push(20)

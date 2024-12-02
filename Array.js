@@ -1,15 +1,40 @@
 
-//Arrays are a fundamental data structure in JavaScript, used to store multiple values in a single variable
+Arrays are a fundamental data structure in JavaScript, used to store multiple values in a single variable
 
 
 
 //Array Method
-push
+* push() : add to one or more elements to the end of an array
+
+let price = [50, 45, 30, 90, 50];
+price.push(70)
+console.log(price); //  [50, 45, 30, 90, 50, 70]
+price.push(30, 50); // [50, 45, 30, 90, 50, 70, 30, 50]
+console.log(price)
+
+* Pop() : Remove the last element from an array
+
+let total = [20, 30, 40, 50];
+total.pop();
+console.log(total); // [20, 30, 40]
+
+* unshift = Add one or more element to the beginning of an array.    
+
+let price = [250, 645, 300, 900, 50];
+price.unshift(100, 150);
+console.log(price); //  [100, 150, 250, 645, 300, 900, 50];
+
+* shift() = Remove the first element from an array
+
+let price = [20, 30, 40, 50, 60];
+price.shift();
+console.log(price); // [30, 40, 50, 60];
+
+
 
 // let arr = [1, 2, 3, 4]
 // console.log(arr[1]);
 // console.log(arr.length)
-
 // console.log(arr)
 // arr.push(10);
 // console.log(arr)

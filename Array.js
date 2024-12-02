@@ -3,7 +3,8 @@ Arrays are a fundamental data structure in JavaScript, used to store multiple va
 
 
 
-//Array Method
+// <--  Array Method (type) -->
+
 * push() : add to one or more elements to the end of an array
 
 let price = [50, 45, 30, 90, 50];
@@ -18,7 +19,7 @@ let total = [20, 30, 40, 50];
 total.pop();
 console.log(total); // [20, 30, 40]
 
-* unshift = Add one or more element to the beginning of an array.    
+* unshift() = Add one or more element to the beginning of an array.    
 
 let price = [250, 645, 300, 900, 50];
 price.unshift(100, 150);

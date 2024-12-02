@@ -61,7 +61,8 @@ while (b < arr.length) {
 }
 for (b = 0; b < arr.length; b++) {  // using for loop
     console.log(b, ":", arr[b])
-}   
+}    
+
 
 
 

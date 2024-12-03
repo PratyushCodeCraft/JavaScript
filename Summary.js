@@ -9,7 +9,7 @@ let accountStatus;
 
 console.log(accountId,accountEmail,accountPassword,accountStatus);
 
-// VIDEO 5 <-- DataType and ECMAscript standards -->
+// PART 5 <-- DataType and ECMAscript standards -->
  
  
 let name ="pratyush"
@@ -27,7 +27,7 @@ console.log(typeof age);
 console.log(typeof null);
 
 
-//VIDEO 6 <-- Datatype Conversion -->
+// PART 6 <-- Datatype Conversion -->
  
 let score = 33
 let score2 ="33abc"    //"33"
@@ -62,7 +62,7 @@ console.log(typeof(score2))
     
 
 
-// VIDEO 7 
+// PART 7 
 
 // *******************Operation*****************
 
@@ -75,7 +75,7 @@ console.log(+true); // 1
 console.log(+"");  // 0
 
 
-//VIDEO 8 <-- Comparison of DataType -->
+// PART 8 <-- Comparison of DataType -->
 
 //   console.log(2 > 1);
 //   console.log(2 >= 1);
@@ -97,7 +97,7 @@ console.log(+"");  // 0
    console.log("2" === 2); // false => because of strict check operator
    
 
-  // VIDEO 9 <-- Data types of Javascript summary -->
+  // PART 9 <-- Data types of Javascript summary -->
 
     // (a) primitive
 
@@ -106,6 +106,8 @@ console.log(+"");  // 0
     // (b) Non primitive (Reference)
 
     // Array, Object, Functions
+
+    
 
 
 

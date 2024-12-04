@@ -107,14 +107,14 @@ console.log(+"");  // 0
 
     // Array, Object, Functions
 
+    array in js
+    function summar
+
+    function {
+      addEventListener;
+    }
+
+    let arr=[30,40,50,6,6,6,0]
+
     
-
-
-
-   
-  
-
-
-
-
 

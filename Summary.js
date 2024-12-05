@@ -1,4 +1,4 @@
-const accountId = 12345;
+/*const accountId = 12345;
 let accountEmail = "rajpratyush111@gmail.com";
 var accountPassword ="hazaribag";
 let accountStatus;
@@ -106,15 +106,18 @@ console.log(+"");  // 0
     // (b) Non primitive (Reference)
 
     // Array, Object, Functions
+*/
+   
+    // PART 10  <-- String in JS -->
 
-    array in js
-    function summar
+    const name = "Pratyush";
+    const age = 25;
 
-    function {
-      addEventListener;
-    }
-
-    let arr=[30,40,50,6,6,6,0]
-
+    // console.log( name + age ); => this formate is old type
+    console.log(`My name is ${name} and my age is ${age}`);
     
+
+
+
+
 

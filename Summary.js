@@ -115,7 +115,16 @@ console.log(+"");  // 0
 
     // console.log( name + age ); => this formate is old type
     console.log(`My name is ${name} and my age is ${age}`);
-    
+
+    const gameName = new String(`pratyush`)
+
+    console.log(name[0]);// access zero index 
+    console.log(name.__proto__);
+
+    console.log(name.length);
+    console.log(name.toUpperCase());
+    console.log(name.charAt(2));
+
 
 
 

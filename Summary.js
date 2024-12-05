@@ -106,17 +106,17 @@ console.log(+"");  // 0
     // (b) Non primitive (Reference)
 
     // Array, Object, Functions
-*/
+
    
     // PART 10  <-- String in JS -->
-
+*/
     const name = "Pratyush";
     const age = 25;
 
     // console.log( name + age ); => this formate is old type
     console.log(`My name is ${name} and my age is ${age}`);
 
-    const gameName = new String(`pratyush`)
+   const gameName = new String(`pratyush`)
 
     console.log(name[0]);// access zero index 
     console.log(name.__proto__);
@@ -124,6 +124,10 @@ console.log(+"");  // 0
     console.log(name.length);
     console.log(name.toUpperCase());
     console.log(name.charAt(2));
+    console.log(name.indexOf('y'));
+
+    let newString = name.substring(0,4);
+    console.log(newString);
 
 
 

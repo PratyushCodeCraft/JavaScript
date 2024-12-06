@@ -109,7 +109,7 @@ console.log(+"");  // 0
 
    
     // PART 10  <-- String in JS -->
-*/
+
     const name = "Pratyush";
     const age = 25;
 
@@ -128,6 +128,16 @@ console.log(+"");  // 0
 
     let newString = name.substring(0,4);
     console.log(newString);
+*/
+   // rough practice
+
+   let name = "123Happy";
+   let newName = Number(name);
+
+   console.log(newName);
+   console.log(typeof newName);
+
+
 
 
 

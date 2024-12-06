@@ -133,9 +133,28 @@ console.log(+"");  // 0
 
    let name = "123Happy";
    let newName = Number(name);
-
    console.log(newName);
    console.log(typeof newName);
+
+   ////////
+
+//    Write a JavaScript function that reverses a number.
+// Example x = 32243;
+// Expected Output : 34223
+
+// Define a function named reverse_a_number that takes a parameter n
+function reverse_a_number(n)
+{
+    // Convert the input number to a string
+    n = n + "";
+
+    // Split the string into an array of characters, reverse the array, and then join the characters back into a string
+    return n.split("").reverse().join("");
+}
+
+// Convert the reversed string back to a number and log it to the console
+console.log(Number(reverse_a_number(32243)));
+
 
 
 

@@ -127,15 +127,22 @@ console.log(+"");  // 0
     console.log(name.indexOf('y'));
 
     let newString = name.substring(0,4);
-    console.log(newString);
+    console.log(newString); // prat
 */
-    
+    let newStringOne = "    pratyush     ";
+    console.log(newStringOne);//     pratyush     
+    console.log(newStringOne.trim()); // .trim use to remove the blank space => // pratyush
 
+    const url ="https://pratyush.com/pratyush%20kumar"
+    console.log(url.replace('%20', '_'));// 1st we add which part was remove & 2nd we add that element what we can see
+                                         // output => https://pratyush.com/pratyush_kumar
 
+     console.log(url.includes('pratyush')); // .includes find that part which was present or not in this URL                                   
+                                            // output => true
+     console.log(url.includes('happy')); // 'happy' word was not present in that URL
+                                         // output => false
 
-
-
-
+                                         
 
 
 

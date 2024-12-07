@@ -131,10 +131,10 @@ console.log(+"");  // 0
 */
    // rough practice
 
-   let name = "123Happy";
-   let newName = Number(name);
-   console.log(newName);
-   console.log(typeof newName);
+   //let name = "123Happy";
+   //let newName = Number(name);
+   //console.log(newName);
+   //console.log(typeof newName);
 
    ////////
 
@@ -143,17 +143,40 @@ console.log(+"");  // 0
 // Expected Output : 34223
 
 // Define a function named reverse_a_number that takes a parameter n
-function reverse_a_number(n)
-{
+//function reverse_a_number(n)
+//{
     // Convert the input number to a string
-    n = n + "";
+   // n = n + "";
 
     // Split the string into an array of characters, reverse the array, and then join the characters back into a string
-    return n.split("").reverse().join("");
-}
+    //return n.split("").reverse().join("");
+//}
 
 // Convert the reversed string back to a number and log it to the console
-console.log(Number(reverse_a_number(32243)));
+//console.log(Number(reverse_a_number(32243)));
+
+// reverse array
+// let arr = [1, 3, 5, 9, 3, 8];
+// console.log(arr);
+// console.log(arr.reverse());  
+// console.log(arr); 
+
+//let newArr = [2,3,4,5,6,7,8];
+//console.log(newArr);
+//console.log(newArr.reverse());
+//console.log(newArr);
+
+let arr = [20,30,40,50,60,7,80];
+
+console.log(arr.reverse());
+arr.pop();
+console.log(arr);
+console.log(arr.reverse());
+arr.push(100,200);
+console.log(arr);
+
+
+
 
 
 

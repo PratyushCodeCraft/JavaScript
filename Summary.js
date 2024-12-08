@@ -1,4 +1,4 @@
-/*const accountId = 12345;
+const accountId = 12345;
 let accountEmail = "rajpratyush111@gmail.com";
 var accountPassword ="hazaribag";
 let accountStatus;
@@ -128,7 +128,7 @@ console.log(+"");  // 0
 
     let newString = name.substring(0,4);
     console.log(newString); // prat
-*/
+
     let newStringOne = "    pratyush     ";
     console.log(newStringOne);//     pratyush     
     console.log(newStringOne.trim()); // .trim use to remove the blank space => // pratyush
@@ -142,7 +142,7 @@ console.log(+"");  // 0
      console.log(url.includes('happy')); // 'happy' word was not present in that URL
                                          // output => false
 
-                                         
+
 
 
 

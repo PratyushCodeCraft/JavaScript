@@ -173,3 +173,30 @@ console.log(Math.random()*10);
 console.log((Math.random()*10) + 1);
 
 
+
+// PART 13 <-- Date and time in depth in javascript -->
+
+//Dates
+
+let myDate = new Date();
+console.log(myDate.toString()); // Mon Dec 09 2024 18:11:44 GMT+0530 (India Standard Time)
+console.log(myDate.toDateString()); // Mon Dec 09 2024
+console.log(myDate.toISOString()); // 2024-12-09T12:40:57.207Z
+console.log(myDate.toJSON()); // 2024-12-09T12:42:35.798Z
+console.log(myDate.toLocaleString()); // 9/12/2024, 6:13:28 pm
+
+ console.log(typeof myDate); // object 
+
+let myCreatedDate = new Date(2023, 0, 23);
+console.log(myCreatedDate.toDateString()); // Mon Jan 23 2023
+
+let myCreatedDate2 = new Date(2023, 0, 23, 5, 3)
+console.log(myCreatedDate2.toLocaleString()); // 23/1/2023, 5:03:00 am
+
+let myCreatedDate3 = new Date("01-14-2023")
+console.log(myCreatedDate3.toLocaleString()); // 14/1/2023, 12:00:00 am
+
+let myTimeStamp = Date.now(); 
+console.log(myTimeStamp); // 1733749181494 => milli sec time
+
+

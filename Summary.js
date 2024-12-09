@@ -1,4 +1,4 @@
-const accountId = 12345;
+/*const accountId = 12345;
 let accountEmail = "rajpratyush111@gmail.com";
 var accountPassword ="hazaribag";
 let accountStatus;
@@ -142,8 +142,22 @@ console.log(+"");  // 0
      console.log(url.includes('happy')); // 'happy' word was not present in that URL
                                          // output => false
 
+*/
+    // PART 12 <-- Number and Maths in Javascript --->  
+    
+    
+  const score = 400;
+  console.log(score);// 400
 
+  const balance = new Number(100);
+  console.log(balance);// Number : 100
 
+  console.log(balance.toString()); // 100 converted to string
+  console.log(balance.toFixed(2)); // 100.00
+
+  const hundreds = 1000000;
+  console.log(hundreds.toLocaleString()); // 10,00,000
+  console.log(hundreds.toLocaleString('en-IN')) // 10,00,000
 
 
 

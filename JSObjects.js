@@ -1,4 +1,6 @@
-// //{key: value}
+
+//JavaScript objects are collections of key-value pairs where each key is a string (or symbol) and each value can be any data type, including another object.
+//The Object type is one of JavaScript's data types.// {key: value}
 
 // const student = {
 //     name: "Happy",
@@ -78,6 +80,7 @@ const returnedValue2 = arr.map((el) => {
 
 console.log(returnedValue2);
 console.log(arr)
+
 
 
 

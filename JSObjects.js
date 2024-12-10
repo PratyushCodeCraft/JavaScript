@@ -81,6 +81,8 @@ const returnedValue2 = arr.map((el) => {
 console.log(returnedValue2);
 console.log(arr)
 
+rough 
+
 
 
 

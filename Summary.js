@@ -198,7 +198,3 @@ console.log(myCreatedDate3.toLocaleString()); // 14/1/2023, 12:00:00 am
 
 let myTimeStamp = Date.now(); 
 console.log(myTimeStamp); // 1733749181494 => milli sec time
-
-
-console.log("rough");
-console.log("rough2 ");

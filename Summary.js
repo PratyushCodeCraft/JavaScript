@@ -1,4 +1,4 @@
-/*const accountId = 12345;
+const accountId = 12345;
 let accountEmail = "rajpratyush111@gmail.com";
 var accountPassword ="hazaribag";
 let accountStatus;
@@ -199,17 +199,7 @@ console.log(myCreatedDate3.toLocaleString()); // 14/1/2023, 12:00:00 am
 let myTimeStamp = Date.now(); 
 console.log(myTimeStamp); // 1733749181494 => milli sec time
 
-*/
 
-////////////
- 
-let num = 30;
 
-if(num >= 50){
-  console.log("congrats")
-}else{
-  console.log("better luck next times")
-}
 
-// coment 
-//rough
+

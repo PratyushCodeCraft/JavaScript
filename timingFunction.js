@@ -45,3 +45,16 @@
 
 
 
+function callback(){
+    console.log('happy is calling callback function')
+}
+
+const add = function(a, b, callback){
+    var result = a+b;
+    console.log(result);
+    callback();
+}
+//add(3,4,callback);
+add( 5 , 5 , () => console.log('add completed')); 
+
+

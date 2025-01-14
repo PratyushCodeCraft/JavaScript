@@ -1,18 +1,33 @@
 
-setTimeout(hello,10000); // here hello is callback function bcoz hello pass as an argument 
+// setTimeout(hello,10000); // here hello is callback function bcoz hello pass as an argument 
 
-function hello(){
-    console.log("hello happy")
+// function hello(){
+//     console.log("hello happy")
+// }
+// setTimeout(hello,10000); // here hello is callback function bcoz hello pass as an argument 
+
+// function hello(){
+//     console.log("hello happy")
+// }
+/////////////////////////////////////////////////////////////////////////////////
+
+
+///////////// Coding ninja //////////////////////////////////////////////////////
+
+////// function ///////////////////////
+
+
+function sum (a,b){
+    console.log(a,b);
+    return a+b;
 }
-setTimeout(hello,10000); // here hello is callback function bcoz hello pass as an argument 
-
-function hello(){
-    console.log("hello happy")
-}
+var result = sum(4);
+console.log(result);
 
 
+//////////////// hosting ///////////////
 
-
+hosting with var
 
 
 

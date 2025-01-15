@@ -29,5 +29,17 @@ console.log(result);
 
 hosting with var
 
+function sum (a,b){
+    console.log(a,b);
+    return a+b;
+}
+var result = sum(4);
+console.log(result);
+
+
+//////////////// hosting ///////////////
+
+hosting with var
+
 
 
